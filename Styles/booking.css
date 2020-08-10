@@ -1,0 +1,93 @@
+.bookNowContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftPane{
+    width: 75%;
+}
+.client{
+    width: 100%;
+}
+.tripInfo, .passportInfo, .clientInfo, .accomodation{
+    float: left;
+    width: 80%;
+    margin-bottom: 40px;
+    color: black;
+}
+.tripInfo{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.tripTitle{
+    font-size: 4vh;
+}
+input.clientInput {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.rightPane{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+    position: relative;
+
+}
+.travlersNumber{
+    background: -webkit-linear-gradient(silver, #0C83B8,#0C83B8);
+    color: white;
+    padding: 3%;
+    width: 100%;
+    height: 300px;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 10%;
+}
+.upDownContainer{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.downTravler, .upTravler, .number{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 4vh;
+}
+
+.downTravler{
+    border-bottom-left-radius: 2vh;
+    border-top-left-radius:  2vh;
+    cursor: pointer;
+    border-right-width: 0px;
+}
+.upTravler{
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius:  2vh;
+    border-left-width: 0px;
+    cursor: pointer;
+}
+.number{
+    width: 34%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+.totalContainer{
+    font-size: 4vh;
+    align-self: flex-start;
+}
