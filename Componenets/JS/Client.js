@@ -8,22 +8,22 @@ function client(id){
         "                              <option value='fiat'>Ms.</option>\n" +
         "                            </select>\n" +
         "                            </p>\n" +
-        "                            <p><input class='clientInput'  type='text' id='firstname' name='firstName"+id+"' placeholder='First Name (same as passport)'></p>\n" +
-        "                            <p><input class='clientInput'  type='text' id='lastName' name='lastName"+id+"' placeholder='Last Name (same as passport)'></p>\n" +
-        "                            <p><input class='clientInput'  type='date' id='birthDate' name='birthDate"+id+"' placeholder='Birth Ddate'></p>\n" +
-        "                            <p><input class='clientInput'  type='email' id='mail' name='mail"+id+"' placeholder='E-Mail'></p>\n" +
+        "                            <p><input class='clientInput'  type='text' id='firstname' name='fname"+id+"' placeholder='First Name (same as passport)'></p>\n" +
+        "                            <p><input class='clientInput'  type='text' id='lastName' name='lname"+id+"' placeholder='Last Name (same as passport)'></p>\n" +
+        "                            <p><input class='clientInput'  type='date' id='birthDate' name='dob"+id+"' placeholder='Birth Ddate'></p>\n" +
+        "                            <p><input class='clientInput'  type='email' id='mail' name='email"+id+"' placeholder='E-Mail'></p>\n" +
         "                            <p><input class='clientInput'  type='phone' id='HomePhone' name='HomePhone"+id+"' placeholder='Home Phone'></p>\n" +
-        "                            <p><input class='clientInput'  type='phone' id='cellPhone' name='cellPhone"+id+"' placeholder='Cell Phone'></p>\n" +
+        "                            <p><input class='clientInput'  type='phone' id='cellPhone' name='phone"+id+"' placeholder='Cell Phone'></p>\n" +
         "                            <p><input class='clientInput'  type='text' id='address' name='address"+id+"' placeholder='Adress'></p>\n" +
         "                            <p><input class='clientInput'  type='text' id='city' name='city"+id+"' placeholder='City'></p>\n" +
-        "                            <p><input class='clientInput'  type='text' id='stat' name='stat"+id+"' placeholder='Stat'></p>\n" +
-        "                            <p><input class='clientInput'  type='text' id='zip' name='zip"+id+"' placeholder='Poste code / ZIP'></p>\n" +
+        "                            <p><input class='clientInput'  type='text' id='stat' name='country"+id+"' placeholder='Stat'></p>\n" +
+        "                            <p><input class='clientInput'  type='text' id='zip' name='postcode"+id+"' placeholder='Poste code / ZIP'></p>\n" +
         "                            <p><input class='clientInput'  type='text' id='nameTag' name='nameTag"+id+"' placeholder='Name Tag'></p>\n" +
         "                        </div>\n" +
         "                            <div class='passportInfo'>\n" +
         "                            <p>Passport information: (if you don’t have a valid passport at the time of the booking, leave the spaces empty, you can send us your passport information later).</p>\n" +
         "                            <br>\n" +
-        "                            <p><input class='clientInput'   type='text' id='passportNumber' name='passportNumber"+id+"' placeholder='Passport number'></p>\n" +
+        "                            <p><input class='clientInput'   type='text' id='passportNumber' name='passport"+id+"' placeholder='Passport number'></p>\n" +
         "                            <p><input class='clientInput'   type='text' id='passportCountry' name='passportCountry"+id+"' placeholder='country of issue'></p> \n" +
         "                            <p><input class='clientInput'   type='text' id='passportDate' name='passportDate"+id+"' placeholder='issue date'></p> \n" +
         "                            <p><input class='clientInput'   type='text' id='passportExdate' name='passportExdate"+id+"' placeholder='expiration date'></p> \n" +
